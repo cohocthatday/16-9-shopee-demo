@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
     <div class="app">
         <header>
             <div class="header">
                 <div class="header-navbar-top">
                     <ul class="navbar-list">
-                        <li><a href="#">Vào cửa hàng trên ứng dụng LVQ-Shop <span class="vertical-line">|</span> Kết nối</a></li>
+                        <li><a href="#">Vào cửa hàng trên ứng dụng LVQ-Shop <span class="vertical-line">|</span> Kết
+                                nối</a></li>
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                     </ul>
@@ -44,50 +47,452 @@
         <div class="grid-container">
             <div class="sidebar">
                 <i class="fa-solid fa-list"></i><span> Danh mục</span>
+                <br>
+                <hr>
                 <ul>
-                    <li class="color-sidebar"><i class="fa-solid fa-caret-right"></i>Trang điểm mắt</li>
-                    <li>Trang điểm mắt</li>
-                    <li>Trang điểm mắt</li>
+                    <li class="color-sidebar"><i class="fa-solid fa-caret-right"></i>Trang điểm mặt</li>
+                    <li>
+                        <pre>    Trang điểm môi</pre>
+                    </li>
+                    <li>
+                        <pre>    Trang điểm mắt</pre>
+                    </li>
                 </ul>
             </div>
             <div class="content">
                 <div class="content-filter">
                     <span class="label">Sắp xếp theo</span>
-                    <button class="left-btn">Lọc</button>
-                    <button class="left-btn special">Reset</button>
-                    <button class="left-btn">Tìm kiếm</button>
+                    <button class="left-btn">Phổ biến</button>
+                    <button class="left-btn special">Mới nhất</button>
+                    <button class="left-btn">Bán chạy</button>
+
                     <select>
-                    <option value="">Chọn giá</option>
-                    <option value="low">Thấp đến cao</option>
-                    <option value="high">Cao đến thấp</option>
+                        <option value="">Giá</option>
+                        <option value="low">Thấp đến cao</option>
+                        <option value="high">Cao đến thấp</option>
                     </select>
-  
 
-                <div class="right-section">
-                <div class="page-info">
-                <span class="current">1</span>/14
-            </div>
-            <div class="btn-group">
-                <button><</button>
-                    <button>></button>
-            </div>
-  </div>
+                    <div class="right-section">
+                        <div class="page-info">
+                            <span class="current">1</span>/14
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-group-left"><i class="fas fa-chevron-left"></i></button>
+                            <button class="btn-group-right"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="product">
-
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">10%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./1.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Kem lót nâng tông Ohui Makeup Ultimate...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.200.000đ</span>
+                            <span class="new-price">1000.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">88 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">20%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./2.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set nước hoa hồng Ohui Miracle Moisture Skin...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.300.000đ</span>
+                            <span class="new-price">1050.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">850 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">20%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./3.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set phấn phủ Ohui Ultimate Brightening...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.100.000đ</span>
+                            <span class="new-price">1000.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">200 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">22%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./4.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set kem mắt tái sinh Ohui The First Geniture Eye...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.400.000đ</span>
+                            <span class="new-price">1100.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">99 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">10%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./5.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set sữa rửa mặt Ohui Prime Gel Cleanser
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.200.000đ</span>
+                            <span class="new-price">1000.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">88 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">20%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./6.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set Phấn Nước Whoo GongJinhYang Mi Luxury...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.500.000đ</span>
+                            <span class="new-price">1200.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">856 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">20%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./7.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set kem chống nắng Whoo Seol radiant white tone u...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.300.000đ</span>
+                            <span class="new-price">1200.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">45 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">10%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./8.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set Son Whoo Luxury Lip Rouge màu mới tinh #88...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.100.000đ</span>
+                            <span class="new-price">1000.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">422 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">20%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./9.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Set dưỡng ẩm whoo hồng gongjinhyang soo vital...
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.200.000đ</span>
+                            <span class="new-price">1100.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">200 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="label-left"><i class="fas fa-check"></i> Yêu thích</div>
+                        <div class="label-right">
+                            <span class="percent">23%</span>
+                            <span class="text">GIẢM</span>
+                        </div>
+                        <div class="img-box">
+                            <img src="./10.png" alt="Ohui">
+                        </div>
+                        <div class="product-name">
+                            Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs Set
+                        </div>
+                        <div class="price">
+                            <span class="old-price">1.300.000đ</span>
+                            <span class="new-price">1000.000đ</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-heart heart"></i>
+                            <div class="rating-right">
+                                <span class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="sold">400 đã bán</span>
+                            </div>
+                        </div>
+                        <div class="meta">
+                            <span>Whoo</span>
+                            <span>Nhật Bản</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="nagination">
-
+                <div class="pagination">
+                    <a href="#" class="prev"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <span>...</span>
+                    <a href="#">14</a>
+                    <a href="#" class="next"><i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer">
+            <div class="footer-section"></div>
             <div class="footer-grid">
-
+                <div class="footer-column">
+                    <h4>Chăm sóc khách hàng</h4>
+                    <ul>
+                        <li><a href="#">Trung Tâm Trợ Giúp</a></li>
+                        <li><a href="#">TickID Mall</a></li>
+                        <li><a href="#">Hướng Dẫn Mua Hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Về TICKID</h4>
+                    <ul>
+                        <li><a href="#">Giới Thiệu Về TickID Việt Nam</a></li>
+                        <li><a href="#">Tuyển Dụng</a></li>
+                        <li><a href="#">Điều Khoản TickID</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Danh mục</h4>
+                    <ul>
+                        <li><a href="#">Mỹ Phẩm</a></li>
+                        <li><a href="#">Quần Áo</a></li>
+                        <li><a href="#">Đồ điện tử</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-social">
+                    <h4>Theo dõi chúng tôi trên</h4>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+                <div class="footer-column footer-app">
+                    <h4>Tải Ứng Dụng Trên Cửa Hàng</h4>
+                    <div class="app-content">
+                        <img src="./maqr.png" alt="QR Code" class="qr">
+                        <div class="stores">
+                            <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                            <a href="#"><i class="fab fa-google-play"></i> Google Play</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <address></address>
-            
+            <address class="author">
+                <h5>REMAKE BY NGUYEN HOANG SON</h5>
+                <p>Email: hoangson.94@gmail.com
+                    <br>Phone: 0342137xxx
+                    <br>Address: Aptech Viet Nam
+                </p>
+            </address>
+            <div class="footer-bottom">@2025 - Remake by Nguyen Hoang Son</div>
+
         </div>
     </div>
 </body>
+
 </html>
